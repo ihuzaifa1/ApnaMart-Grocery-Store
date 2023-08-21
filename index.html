@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><i class="bi bi-basket-fill"></i>ApnaMart</a>
+        <nav class="navbar">
+            <a href="#Home">Home</a>
+            <a href="#Features">Features</a>
+            <a href="#Products">Products</a>
+            <a href="#Categories">Categories</a>
+            <a href="#Review">Review</a>
+        </nav>
+        <ul>
+            <li><i class="bi bi-search" id="search-btn"></i> </li>
+            <li><i class="bi bi-cart" id="shopping-btn"></i></li>
+            <li><i class="bi bi-person" id="login-btn"></i></li>
+        </ul>
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="Search here...">
+            <label for="search-box" class="bi bi-search"></label>
+        </form>
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="bi bi-trash3" id="trashx"></i>
+                <img src="meat1.png" alt="" width="150px">
+                <div class="content">
+                    <h3>Chicken</h3>
+                    <span class="price">Rs: 700</span>
+                    <span class="quantity">qty: 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="bi bi-trash3" id="trashx"></i>
+                <img src="meat2.png" alt="" width="150px">
+                <div class="content">
+                    <h3>Meat</h3>
+                    <span class="price">Rs: 1100</span>
+                    <span class="quantity">qty: 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="bi bi-trash3" id="trashx"></i>
+                <img src="meat3.png" alt="" width="150px">
+                <div class="content">
+                    <h3>Fish</h3>
+                    <span class="price">Rs: 500</span>
+                    <span class="quantity">qty: 1</span>
+                </div>
+            </div>
+            <div class="total">Rs: 2300/-</div>
+            <a href="#" class="btn">Checkout</a>
+        </div>
+        <form action="" class="login-form">
+            <h3>Login Now</h3>
+            <input type="email" placeholder="your email.." class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>forget your password <a href="">Click here</a></p>
+            <p>don't have an account <a href="">Create Account</a></p>
+            <input type="submit" value="login Now" class="btn">
+        </form>
+    </header>
+
+
+
+
+    <section class="home" id="Home">
+        <div class="content">
+            <h3>fresh and <span>organic</span> products for you</h3>
+            <p>Experience the essence of nature on your plate with our exquisite selection of organic foods.</p>
+            <a href="#" class="btn1">Shop now</a>
+        </div>
+    </section>
+
+
+
+    <section class="feature" id="Features">
+        <h3 class="heading">Our <span>Features</span></h3>
+        
+        <div class="box-container">
+
+            <div class="box">
+                <img src="f1.png" alt="" width="300px">
+                <h3>Fresh & Organic</h3>
+                <p>Experience & get the fresh organic organic food on our first online grocery store.</p>
+                <a href="#" class="btn1">Read more...</a>
+            </div>
+
+            <div class="box">
+                <img src="f2.png" alt="" width="300px"  >
+                <h3>Fast & Free Delivery</h3>
+                <p>Experience the convenience of seamless shopping with our grocery store website.</p>
+                <a href="#" class="btn1">Read more...</a>
+            </div>
+
+            <div class="box">
+                <img src="f3.jpg" alt="" width="300px" >
+                <h3>Instant Payment</h3>
+                <p>Discover the ease of instant payment, making your checkout process seamless and efficient.</p>
+                <a href="#" class="btn1">Read more...</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="Products" id="Products">
+        <h3 class="heading">Our <span>Products</span></h3>
+       
+        <div class="swiper product-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="mango.jpg" alt="" width="280px">
+                    <h3>Fresh Mangoes</h3>
+                    <div class="price">Rs:250/-....Rs:450/-</div>
+                    <div class="stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <a href="#" class="btn1">Add to Cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="onions.jpg" alt="" width="280px">
+                    <h3>Fresh Onions</h3>
+                    <div class="price">Rs:250/-....Rs:450/-</div>
+                    <div class="stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <a href="#" class="btn1">Add to Cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="Screenshot 2023-08-21 011032.png" alt="" width="280px">
+                    <h3>Fresh Mangoes</h3>
+                    <div class="price">Rs:250/-....Rs:450/-</div>
+                    <div class="stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <a href="#" class="btn1">Add to Cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="potato.jpg" alt="" width="280px">
+                    <h3>Fresh Potatoes</h3>
+                    <div class="price">Rs:150/-....Rs:250/-</div>
+                    <div class="stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <a href="#" class="btn1">Add to Cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="avocado.jpg" alt="" width="280px">
+                    <h3>Fresh Avocado</h3>
+                    <div class="price">Rs:250/-....Rs:350/-</div>
+                    <div class="stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <a href="#" class="btn1">Add to Cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="chicken.png" alt="" width="280px">
+                    <h3>Fresh Chicken</h3>
+                    <div class="price">Rs:550/-....Rs:650/-</div>
+                    <div class="stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <a href="#" class="btn1">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="swiper product-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="potato.jpg" alt="" width="280px">
+                    <h3>Fresh Potatoes</h3>
+                    <div class="price">Rs:150/-....Rs:250/-</div>
+                    <div class="stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <a href="#" class="btn1">Add to Cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="avocado.jpg" alt="" width="280px">
+                    <h3>Fresh Avocado</h3>
+                    <div class="price">Rs:250/-....Rs:350/-</div>
+                    <div class="stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <a href="#" class="btn1">Add to Cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="chicken.png" alt="" width="280px">
+                    <h3>Fresh Chicken</h3>
+                    <div class="price">Rs:550/-....Rs:650/-</div>
+                    <div class="stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <a href="#" class="btn1">Add to Cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="mango.jpg" alt="" width="280px">
+                    <h3>Fresh Mangoes</h3>
+                    <div class="price">Rs:250/-....Rs:450/-</div>
+                    <div class="stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <a href="#" class="btn1">Add to Cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="onions.jpg" alt="" width="280px">
+                    <h3>Fresh Onions</h3>
+                    <div class="price">Rs:250/-....Rs:450/-</div>
+                    <div class="stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <a href="#" class="btn1">Add to Cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="Screenshot 2023-08-21 011032.png" alt="" width="280px">
+                    <h3>Fresh Mangoes</h3>
+                    <div class="price">Rs:250/-....Rs:450/-</div>
+                    <div class="stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <a href="#" class="btn1">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+
+
+    <section class="Categories" id="Categories">
+        <h3 class="heading">Products <span>Categories</span></h3>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="f1.png" alt="" width="210px">
+                <h3>Fresh Vegetables</h3>
+                <p>Upto 40% off</p>
+                <a href="#" class="btn1">Shop Now</a>
+            </div>
+
+            <div class="box">
+                <img src="frt.png" alt="" width="210px">
+                <h3>Fresh Fruits</h3>
+                <p>Upto 30% off</p>
+                <a href="#" class="btn1">Shop Now</a>
+            </div>
+
+            <div class="box">
+                <img src="met.png" alt="" width="210px">
+                <h3>Fresh Meat</h3>
+                <p>Upto 20% off</p>
+                <a href="#" class="btn1">Shop Now</a>
+            </div>
+
+            <div class="box">
+                <img src="dairy.jpg" alt="" width="210px">
+                <h3>Dairy Product</h3>
+                <p>Upto 25% off</p>
+                <a href="#" class="btn1">Shop Now</a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <section class="Review" id="Review">
+        <h1 class="heading">Customer's <span>Review</span></h1>
+
+        <div class="swiper review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="pic.png" alt="" width="210px">
+                    <p>From its creamy texture to its versatile charm,Butter elevates every bite and recipe.</p>
+                    <h3>Huzaifa</h3>
+                    <div class="stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="pic2.png" alt="" width="210px">
+                    <p>From its creamy texture to its versatile charm,Butter elevates every bite and recipe.</p>
+                    <h3>Humma</h3>
+                    <div class="stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="pic3.png" alt="" width="210px">
+                    <p>From its creamy texture to its versatile charm,Butter elevates every bite and recipe.</p>
+                    <h3>John</h3>
+                    <div class="stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="pic4.png" alt="" width="210px">
+                    <p>From its creamy texture to its versatile charm,Butter elevates every bite and recipe.</p>
+                    <h3>Afraz</h3>
+                    <div class="stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="pic.png" alt="" width="210px">
+                    <p>From its creamy texture to its versatile charm,Butter elevates every bite and recipe.</p>
+                    <h3>Huzaifa</h3>
+                    <div class="stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="pic2.png" alt="" width="210px">
+                    <p>From its creamy texture to its versatile charm,Butter elevates every bite and recipe.</p>
+                    <h3>Humma</h3>
+                    <div class="stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="pic3.png" alt="" width="210px">
+                    <p>From its creamy texture to its versatile charm,Butter elevates every bite and recipe.</p>
+                    <h3>John</h3>
+                    <div class="stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="pic4.png" alt="" width="210px">
+                    <p>From its creamy texture to its versatile charm,Butter elevates every bite and recipe.</p>
+                    <h3>Afraz</h3>
+                    <div class="stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <section class="footer">
+
+        <div class="box-container">
+
+
+            <div class="box">
+                <h3><i class="bi bi-basket-fill"></i> ApnaMart</h3>
+                <p>Experience the first online grocery store.</p>
+                <div class="share">
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <h3>Contact info</h3>
+                <a href="#" class="links">+92-300-1000000</a>
+                <a href="#" class="links">+92-300-1000000</a>
+                <a href="#" class="links">huzaifaras10@gmail.com</a>
+                <a href="#" class="links">Lahore , Punjab , Pakistan</a>
+            </div>
+
+
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#" class="links"><i class="bi bi-arrow-right"></i>Home</a>
+                <a href="#" class="links"><i class="bi bi-arrow-right"></i>Features</a>
+                <a href="#" class="links"><i class="bi bi-arrow-right"></i>Products</a>
+                <a href="#" class="links"><i class="bi bi-arrow-right"></i>Categories</a>
+                <a href="#" class="links"><i class="bi bi-arrow-right"></i>Review</a>
+            </div>
+        
+
+            <div class="box">
+                <h3>Subscription</h3>
+                <input type="email" placeholder="enter your email" class="email">
+                <input type="submit" value="Subscription" class="btn1">
+                
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
